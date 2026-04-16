@@ -1,6 +1,6 @@
 # Power Profiling: Reproducible Workflow
 
-_Generated: 2026-04-17 01:32:24_
+_Generated: 2026-04-17 04:12:27_
 
 ## Overview
 
@@ -26,7 +26,7 @@ Mem clock  : 1593 MHz (hardware-fixed, HBM2e)
 | Measurement duration | 120 s |
 | Cooldown between steps | 30 s |
 | SM clock range | 210-1410 MHz |
-| Number of frequency points | 18 |
+| Number of frequency points | 36 |
 
 ## Step-by-Step Reproduction
 
@@ -113,8 +113,8 @@ print(f'P_idle = {sum(readings)/len(readings):.1f} W')"
 ## Fitted Results Summary
 
 ```
-P(f) = 2.6770e-07*f^3 + -5.3135e-04*f^2 + 4.4484e-01*f + 1.8397e+01
-R^2 = 0.9845   MAPE = 3.78%
+P(f) = 1.7118e-07*f^3 + -3.2526e-04*f^2 + 3.1940e-01*f + 3.7899e+01
+R^2 = 0.9904   MAPE = 2.92%
 ```
 
 ## Limitations and Caveats
